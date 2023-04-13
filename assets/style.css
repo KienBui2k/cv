@@ -1,0 +1,192 @@
+.main {
+    width: 70%;
+    background-color: aqua;
+    margin: 0 auto;
+    border: 2PX solid black;
+}
+
+
+
+.cv-container-head {
+    display: flex;
+
+}
+
+.cv-img {
+    width: 33%;
+    padding-top: 33%;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    border-radius: 50%;
+    text-align: center;
+    margin: 10px;
+}
+
+.cv-info {
+    width: 64%;
+    margin: 16px;
+
+}
+
+.cv-jd {
+    border-bottom: 2px solid black;
+    padding-bottom: 20px;
+}
+
+/* .cv-name {
+    margin: 8px 0;
+} */
+.cv-body-1 {
+    width: 100%;
+    display: flex;
+
+}
+
+.TTCN {
+    width: 33%;
+    padding: 12px 16px;
+}
+
+.TTCN h3 {
+    padding: 8px 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.HV {
+    width: 33%;
+    padding: 12px 16px;
+}
+
+.HV h3 {
+    padding: 8px 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.KN {
+    width: 33%;
+    padding: 12px 16px;
+}
+
+.KN h3 {
+    padding: 8px 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.material-symbols-outlined {
+    margin-right: 4px;
+}
+
+.KNLV-1,
+.KNLV-2 {
+    display: flex;
+    margin: 12px 16px;
+    flex-wrap: wrap;
+}
+
+.KNLV-1 {
+    padding-bottom: 20px;
+    border-bottom: 2px solid rgba(89, 84, 84, 0.3);
+}
+
+.KNLV-2 {
+    padding-top: 20px;
+}
+
+.cv-body-2 h2 {
+    padding: 8px 0;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    margin: 12px 16px;
+}
+
+.THONG-TIN {
+    width: 50%;
+}
+
+.CHI-TIET {
+    width: 50%;
+}
+
+.THONG-TIN-2 {
+    width: 50%;
+}
+
+.CHI-TIET-2 {
+    width: 50%;
+}
+
+.THANH-TICH {
+    display: flex;
+    margin: 12px 16px;
+}
+
+.THANH-TICH-1,
+.THANH-TICH-2 {
+    width: 50%;
+}
+
+.THANH-TICH-1 h2,
+.THANH-TICH-2 h2 {
+    padding: 8px 0;
+
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+.THANH-TICH-1 h2 {
+    margin-right: 16px;
+    margin-left: 0px;
+}
+
+.THANH-TICH-2 h2 {
+    margin-right: 8px;
+    margin-left: 0px;
+}
+
+/* Mobile  width < 740px */
+@media only screen and (max-width: 46.1875em) {}
+
+/* tablet width >=740px and <1024px */
+@media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+    .cv-img {
+        width: 30%;
+        height: 30%;
+        margin-top: 36px;
+
+    }
+
+    .cv-body-1 {
+
+        flex-wrap: wrap;
+    }
+
+    .TTCN,
+    .HV,
+    .KN {
+        width: 40%;
+    }
+
+    .THONG-TIN {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .CHI-TIET {
+        width: 100%;
+    }
+
+    .THONG-TIN-2 {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+
+    .CHI-TIET-2 {
+        width: 100%;
+    }
+}
